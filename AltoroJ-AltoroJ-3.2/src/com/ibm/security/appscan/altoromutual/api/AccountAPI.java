@@ -23,7 +23,7 @@ import com.ibm.security.appscan.altoromutual.util.OperationsUtil;
 @Path("/account")
 public class AccountAPI extends AltoroAPI {
 
-	// For the get method return all accounts *new changes --Feb 4 -Varun *
+	// For the get method return all accounts *new changes --4 Mar -Varun *
 	@GET
 	public Response getAccounts(@Context HttpServletRequest request) {
 

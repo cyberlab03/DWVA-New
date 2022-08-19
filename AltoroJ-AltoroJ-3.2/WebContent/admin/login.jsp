@@ -35,7 +35,7 @@ IBM AltoroJ
 		  <p>
 		<!--  add captcha input here -->
 		    <strong>Enter the administrative password:</strong><br />
-		    <input id="password" name="password" type=password runat="server" /><br /><br />
+		    <input id="admin" name="password" type=password runat="server" /><br /><br />
 		    <input type="submit" name="btnSubmit" value="Login">
 		  </p>
 		<p><span id="_ctl0__ctl0_Content_Main_message" style="color:#FF0066;font-size:12pt;font-weight:bold;">

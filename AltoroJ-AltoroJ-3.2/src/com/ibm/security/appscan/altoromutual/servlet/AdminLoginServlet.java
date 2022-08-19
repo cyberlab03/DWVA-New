@@ -42,7 +42,7 @@ public class AdminLoginServlet extends HttpServlet {
 		if (password == null){
 			response.sendRedirect(request.getContextPath()+"/admin/login.jsp");
 			return ;
-		} else if (!password.equals("123")){
+		} else if (!password.equals("ADMIN")){
 			request.setAttribute("loginError", "Login failed.");
 			RequestDispatcher dispatcher = request.getRequestDispatcher("/admin/login.jsp");
 			dispatcher.forward(request, response);

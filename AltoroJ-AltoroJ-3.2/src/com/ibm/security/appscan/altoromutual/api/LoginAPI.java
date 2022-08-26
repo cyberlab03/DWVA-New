@@ -56,7 +56,7 @@ public class LoginAPI{
 		try {
 			if (!DBUtil.isValidUser(username, password)) {
 				throw new InvalidParameterException(
-						"This is the demo for testing security scan.");
+						" This is my first demo.");
 			}
 		} catch (Exception e) {
 			if (e instanceof InvalidParameterException)

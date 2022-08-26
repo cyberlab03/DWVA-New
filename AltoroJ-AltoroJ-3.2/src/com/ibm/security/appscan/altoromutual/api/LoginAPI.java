@@ -56,7 +56,7 @@ public class LoginAPI{
 		try {
 			if (!DBUtil.isValidUser(username, password)) {
 				throw new InvalidParameterException(
-						"We're sorry, but this username or password was not found in our system.");
+						"This is the demo for testing security scan.");
 			}
 		} catch (Exception e) {
 			if (e instanceof InvalidParameterException)

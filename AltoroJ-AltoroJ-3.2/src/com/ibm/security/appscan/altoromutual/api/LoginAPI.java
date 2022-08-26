@@ -69,7 +69,8 @@ public class LoginAPI{
 		try {
 			myJson.put("success", username + " is now logged in");
 			
-			//Generate a very basic auth token      			
+			//Generate a very basic auth token
+			//Demo
 			String authToken = Base64.encodeBase64String(username.getBytes()) +":"+ Base64.encodeBase64String(password.getBytes()) +":"+OperationsUtil.makeRandomString();
 			
 			myJson.put("Authorization",Base64.encodeBase64String(authToken.getBytes()));

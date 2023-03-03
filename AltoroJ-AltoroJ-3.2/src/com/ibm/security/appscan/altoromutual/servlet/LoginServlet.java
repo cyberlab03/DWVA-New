@@ -13,6 +13,10 @@ OR SAFE FOR YOUR TECHNICAL ENVIRONMENT. NEVER INSTALL THE APPLICATION IN A PRODU
 ENVIRONMENT. YOU ACKNOWLEDGE AND ACCEPT ALL RISKS ASSOCIATED WITH THE USE OF THE APPLICATION.
 
 IBM AltoroJ
+
+// New comment added
+// Copy new files
+// New file uploaded and changes done
 (c) Copyright IBM Corp. 2008, 2013 All Rights Reserved.
  */
 package com.ibm.security.appscan.altoromutual.servlet;

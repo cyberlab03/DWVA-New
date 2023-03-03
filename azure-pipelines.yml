@@ -24,5 +24,6 @@ steps:
     applications: '127f1020-c9a8-4fac-9371-d939b99876c5'
     scanname: 'VSTS Azure Demo'
     scantype: 'static'
+    Demo 
     ScanSpeedOptions: 'simple'
     email: true

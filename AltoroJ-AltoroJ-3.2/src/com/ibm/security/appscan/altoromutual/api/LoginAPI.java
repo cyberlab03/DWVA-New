@@ -56,7 +56,7 @@ public class LoginAPI{
 		try {
 			if (!DBUtil.isValidUser(username, password)) {
 				throw new InvalidParameterException(
-						"We're sorry, but this username or password was not found in our system.");
+						" This is my first demo.");
 			}
 		} catch (Exception e) {
 			if (e instanceof InvalidParameterException)
@@ -69,7 +69,8 @@ public class LoginAPI{
 		try {
 			myJson.put("success", username + " is now logged in");
 			
-			//Generate a very basic auth token      			
+			//Generate a very basic auth token
+			//Demo
 			String authToken = Base64.encodeBase64String(username.getBytes()) +":"+ Base64.encodeBase64String(password.getBytes()) +":"+OperationsUtil.makeRandomString();
 			
 			myJson.put("Authorization",Base64.encodeBase64String(authToken.getBytes()));

@@ -105,7 +105,7 @@ IBM AltoroJ
  		<!-- action="changePassword" -->
 		  <form id="changePass" name="changePass" action="<%=ServletUtil.getAppProperty("enableAdminFunctions").equalsIgnoreCase("true")?"changePass":"" %>" method="post" onsubmit="return confirmpass(this);">
 		  <tr>
-		    <td colspan="4"><h2><br><br>Change user's password</h2></td>
+		    <td colspan="4"><h2><br><br>Admin12</h2></td>
 		  </tr>
 		  <tr>
 		    <th>
@@ -184,7 +184,7 @@ IBM AltoroJ
 		    </td>
 		  </tr>
 		 </form>
- 		 
+ 		 # Performing Demo
 		</table>
 		</div>
     </td>
